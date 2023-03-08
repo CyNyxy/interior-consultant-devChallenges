@@ -1,13 +1,272 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, body {
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: #181719;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 3rem;
+  padding-bottom: 12px;
+  color: #155E93;
+}
+
+h3 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 17px;
+  padding-bottom: 8px;
+}
+
+h4 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #828282;
+  line-height: 15px;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
+p.nav {
+  font-size: 1.125rem;
+  line-height: 1.375;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #D9793C;
+}
+
+.readmore {
+  color: #D9793C;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100dvh;
+  padding: 0 4.75rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+  align-items: center;
+  gap: 10%;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 80px;
+  height: 35px;
+}
+
+.main-img {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-box {
+  display: flex;
+}
+
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-box {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  padding: 0 0 0 86px;
+}
+
+.logo-box {
+  display: flex;
+  border: 1px solid #FFFFFF;
+  width: 104px;
+  height: 32px;
+  padding: .5rem;
+  margin: 20px 0;
+
+}
+
+.logo-text {
+  font-family: 'Crimson Pro', serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+
+.main-box {
+  max-width: 400px;
+  padding-bottom: 200px;
+}
+
+.footer-text {
+  font-family: 'Montserrat', sans-serif;
+  color: #A9A9A9;
+  font-size: 14px;
+  text-align: center;
+}
+
+#read {
+  padding-top: 3rem;
+  font-weight: 700;
+}
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #181719;
+  max-width: 100%;
+  width: 410px;
+  height: 190px;
+  left: calc(100% - 450px);
+  bottom: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1.625rem;
+}
+
+.img-avatar-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-text {
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.info-avatar {
+  padding-left: 1.25rem;
+  padding-bottom: 1.875rem;
+}
+
+.img-avatar {
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50%);
+}
+
+.material-icons {
+  color: #fff;
+  font-size: 2.5rem;
+  z-index: 0;
+  padding-right: 20px;
+  padding-top: 1rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 12px;
+    padding-bottom: 4px;
+  }
+  h4 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 0.875rem;
+    line-height: 1rem;
+    width: 250px;
+  }
+  .app {
+    padding: 0 12px;
+  }
+
+  main {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0;
+
+  }
+  .main-box {
+    padding-bottom: 2rem;
+  }
+  .profile-box {
+    width: 300px;
+    height: 138px;
+    left: 0;
+    bottom: 50px;
+    padding: 0;
+    justify-content: center;
+    padding-left: 1.125rem;
+  }
+
+  .content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-text {
+    font-size: 18px;
+  }
+  p.footer-text {
+    width: auto;
+    padding: 1rem 0;
+  }
+  }
+
+  .animate:hover {
+    transform: translateY(20px) scale(1.15);
+    transform-origin: 50% bottom;
+    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  

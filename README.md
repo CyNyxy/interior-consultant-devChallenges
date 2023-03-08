@@ -1,4 +1,4 @@
-<h1 align="center">Recipe page</h1>
+<h1 align="center">Interior consultant Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://nyxy-web.netlify.app">
+    <a href="https://nyxy-interior-consultant.netlify.app">
       Demo
     </a>
     <span> | </span>
@@ -14,13 +14,12 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
@@ -31,26 +30,26 @@
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
-<!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://i.ibb.co/gwC0Dj8/devchallenge01.png)
+![screenshot](https://i.ibb.co/RCWsDX0/imagen-2023-03-08-133737281.png)
 
-The solution for this challenge can be found: https://nyxy-web.netlify.app.
+The solution for this challenge can be found: https://nyxy-interior-consultant.netlify.app.
 
 ### Built With
 
 - [HTML](https://www.w3schools.com)
 - [CSS](https://css-tricks.com)
+- [React](https://es.reactjs.org)
 
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) was to build an application to complete the following user stories:
 
-- [x] User story: I can see a recipe with ingredients and instructions
-- [x] User story: I can select a checkbox if I have the ingredients
-- [x] User story: I can see the number of servings, baking times
+- [x] User story: I can see a page following the given design
+- [x] User story: On mobile, I can see a collapsed navigation
+- [x] User story: On mobile, when I select the hamburger menu, I can see a navigation
 
 ## How To Use
 
@@ -69,11 +68,11 @@ $ npm start
 
 ## Acknowledgements
 
-- [The :nth-child selector](https://css-tricks.com/almanac/selectors/n/nth-child/)
-- [Pure CSS Custom Checkbox Style](https://moderncss.dev/pure-css-custom-checkbox-style/)
-- [Creative list styling](https://web.dev/creative-list-styling/)
-- [Grid generator](https://cssgrid-generator.netlify.app)
-- [Material Icons Guide](https://developers.google.com/fonts/docs/material_icons?hl=es-419)
+- [How to detect click outside in a React component](https://www.codingdeft.com/posts/react-on-click-outside/#demo-and-source-code)
+- [The clip-path property](https://css-tricks.com/almanac/properties/c/clip-path/)
+- [A delightful reference for HTML Symbols, Entities and ASCII Character Codes](https://www.toptal.com/designers/htmlarrows/)
+- [Boxes That Fill Height: flex-grow](https://css-tricks.com/boxes-fill-height-dont-squish/)
+
 
 ## Contact
 
